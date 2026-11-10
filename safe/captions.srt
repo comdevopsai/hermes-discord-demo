@@ -1,0 +1,159 @@
+1
+00:00:00,088 --> 00:00:04,500
+Agile works for one team The hard problem is coordination many
+
+2
+00:00:04,512 --> 00:00:08,650
+teams shared dependencies one business outcome The Scaled Agile
+
+3
+00:00:08,662 --> 00:00:12,775
+Framework or SAFe is one answer This is a plain-language tour for
+
+4
+00:00:12,788 --> 00:00:16,950
+technical newcomers No certification pitch no endorsement
+
+5
+00:00:17,350 --> 00:00:21,288
+Claims are attributed to Scaled Agile's published pages accessed
+
+6
+00:00:21,300 --> 00:00:25,798
+November 10, 2026 The framework evolves As of
+
+7
+00:00:25,811 --> 00:00:30,086
+November 2026 the Scaled Agile homepage distinguishes Core SAFe
+
+8
+00:00:30,574 --> 00:00:34,261
+their long-standing operating model for scaling Lean and Agile from
+
+9
+00:00:34,274 --> 00:00:37,948
+AI-Native SAFe released in 2026 The SAFe
+
+10
+00:00:37,961 --> 00:00:42,198
+6.0 configurations page points readers toward the latest version
+
+11
+00:00:42,573 --> 00:00:46,774
+So what follows is SAFe 6.0 context not a claim about what is
+
+12
+00:00:46,786 --> 00:00:51,260
+newest Always check the official site and access dates The heart of
+
+13
+00:00:51,273 --> 00:00:55,372
+SAFe is the Agile Release Train or ART a long-lived team of Agile
+
+14
+00:00:55,385 --> 00:00:59,098
+teams aligned to a value stream Work is organized in a Planning
+
+15
+00:00:59,110 --> 00:01:03,535
+Interval or PI a timebox of eight to twelve weeks Distinguish
+
+16
+00:01:03,548 --> 00:01:07,985
+two things synchronized PI planning where teams align on objectives
+
+17
+00:01:07,998 --> 00:01:11,835
+for the interval and releasing value which is not tied to that
+
+18
+00:01:11,848 --> 00:01:16,210
+cadence Solutions release continuously or on demand whenever
+
+19
+00:01:16,222 --> 00:01:20,204
+ready SAFe 6.0 released March 2023
+
+20
+00:01:20,654 --> 00:01:24,604
+defined four configurations Essential SAFe is the foundation
+
+21
+00:01:25,204 --> 00:01:29,491
+ARTs roles events artifacts Large Solution coordinates very
+
+22
+00:01:29,504 --> 00:01:33,454
+large solutions beyond one ART without a portfolio layer
+
+23
+00:01:33,866 --> 00:01:37,866
+Portfolio SAFe adds strategy funding and lean portfolio management
+
+24
+00:01:38,254 --> 00:01:42,366
+Full SAFe combines all layers for the largest enterprises This is
+
+25
+00:01:42,378 --> 00:01:46,429
+6.0 context not an assertion that 6.0 is current
+
+26
+00:01:46,875 --> 00:01:50,913
+What does the evidence show Scaled Agile publishes adoption research
+
+27
+00:01:51,175 --> 00:01:54,888
+and the State of Agile report series discusses SAFe usage but the
+
+28
+00:01:54,900 --> 00:01:58,750
+instruments denominators and years differ and figures are easy to
+
+29
+00:01:58,763 --> 00:02:02,800
+misquote I will not put a percentage on screen without the original
+
+30
+00:02:02,813 --> 00:02:06,750
+and its denominator Vendor research reports adopter benefits
+
+31
+00:02:07,250 --> 00:02:11,462
+treat it as directional The defensible claim is narrow SAFe is
+
+32
+00:02:11,475 --> 00:02:15,150
+widely adopted and structured and outcomes depend on how it is
+
+33
+00:02:15,163 --> 00:02:19,566
+applied Key takeaways Start with Essential SAFe and the ART
+
+34
+00:02:20,166 --> 00:02:23,166
+add large-solution or portfolio layers only when you have the
+
+35
+00:02:23,178 --> 00:02:27,390
+problem they solve Plan together in the Planning Interval release
+
+36
+00:02:27,403 --> 00:02:31,553
+value continuously or on demand Treat the framework as a starting
+
+37
+00:02:31,566 --> 00:02:35,866
+hypothesis not a guarantee Measure outcomes not ceremony
+
+38
+00:02:35,878 --> 00:02:40,003
+compliance This video is educational not certification
+
+39
+00:02:40,028 --> 00:02:44,278
+training or endorsement by Scaled Agile For detail use the official
+
+40
+00:02:44,290 --> 00:02:47,703
+framework site linked with access dates in the sources
