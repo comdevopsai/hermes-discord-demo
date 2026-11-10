@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "public_material": true,
+  "title": "SAFe explained: from teams to enterprise",
+  "sources": [
+    "https://framework.scaledagile.com/",
+    "https://framework.scaledagile.com/planning-interval/",
+    "https://framework.scaledagile.com/safe-6-0-configurations",
+    "https://framework.scaledagile.com/essential-safe/",
+    "https://framework.scaledagile.com/safe-lean-agile-principles/",
+    "https://framework.scaledagile.com/ai-native-safe"
+  ],
+  "slides": [
+    {
+      "title": "Why SAFe exists",
+      "bullets": [
+        "Agile works for one team",
+        "Enterprises need coordinated value streams",
+        "SAFe = Scaled Agile Framework"
+      ],
+      "narration": "Agile works for one team. The hard problem is coordination: many teams, shared dependencies, one business outcome. The Scaled Agile Framework, or SAFe, is one answer. This is a plain-language tour for technical newcomers. No certification pitch, no endorsement. Claims are attributed to Scaled Agile's published pages, accessed November 10, 2026.",
+      "diagram": [
+        "One team",
+        "Many teams",
+        "One value stream"
+      ]
+    },
+    {
+      "title": "SAFe today: Core and AI-Native",
+      "bullets": [
+        "Homepage distinguishes Core SAFe and AI-Native SAFe",
+        "AI-Native SAFe released 2026",
+        "Framework evolves; check access dates"
+      ],
+      "narration": "The framework evolves. As of November 2026, the Scaled Agile homepage distinguishes Core SAFe, their long-standing operating model for scaling Lean and Agile, from AI-Native SAFe, released in 2026. The SAFe 6.0 configurations page points readers toward the latest version. So what follows is SAFe 6.0 context, not a claim about what is newest. Always check the official site and access dates.",
+      "diagram": [
+        "Core SAFe",
+        "AI-Native SAFe"
+      ]
+    },
+    {
+      "title": "The ART and the Planning Interval",
+      "bullets": [
+        "Agile Release Train: long-lived team of teams",
+        "Planning Interval: 8-12 week timebox",
+        "PI Planning aligns teams; value flows on demand"
+      ],
+      "narration": "The heart of SAFe is the Agile Release Train, or ART: a long-lived team of Agile teams aligned to a value stream. Work is organized in a Planning Interval, or PI, a timebox of eight to twelve weeks. Distinguish two things: synchronized PI planning, where teams align on objectives for the interval; and releasing value, which is not tied to that cadence. Solutions release continuously or on demand, whenever ready.",
+      "diagram": [
+        "Teams",
+        "ART",
+        "PI plan",
+        "Release on demand"
+      ]
+    },
+    {
+      "title": "Four configurations (SAFe 6.0 context)",
+      "bullets": [
+        "Essential: the ART foundation",
+        "Large Solution: big systems, no portfolio layer",
+        "Portfolio / Full: strategy and funding at scale"
+      ],
+      "narration": "SAFe 6.0, released March 2023, defined four configurations. Essential SAFe is the foundation: ARTs, roles, events, artifacts. Large Solution coordinates very large solutions beyond one ART, without a portfolio layer. Portfolio SAFe adds strategy, funding, and lean portfolio management. Full SAFe combines all layers for the largest enterprises. This is 6.0 context, not an assertion that 6.0 is current.",
+      "diagram": [
+        "Essential",
+        "Large Solution",
+        "Portfolio",
+        "Full"
+      ]
+    },
+    {
+      "title": "What the evidence does (and doesn't) say",
+      "bullets": [
+        "Adoption surveys exist but vary in method",
+        "Vendor research is directional, not independent",
+        "No framework guarantees outcomes"
+      ],
+      "narration": "What does the evidence show? Scaled Agile publishes adoption research, and the State of Agile report series discusses SAFe usage, but the instruments, denominators, and years differ, and figures are easy to misquote. I will not put a percentage on screen without the original and its denominator. Vendor research reports adopter benefits; treat it as directional. The defensible claim is narrow: SAFe is widely adopted and structured, and outcomes depend on how it is applied.",
+      "diagram": [
+        "Claim",
+        "Source",
+        "Denominator",
+        "Verify"
+      ]
+    },
+    {
+      "title": "Key takeaways",
+      "bullets": [
+        "Start with Essential; add layers on need",
+        "Plan synchronously; release on demand",
+        "Educational only - not certification"
+      ],
+      "narration": "Key takeaways. Start with Essential SAFe and the ART; add large-solution or portfolio layers only when you have the problem they solve. Plan together in the Planning Interval; release value continuously or on demand. Treat the framework as a starting hypothesis, not a guarantee. Measure outcomes, not ceremony compliance. This video is educational, not certification, training, or endorsement by Scaled Agile. For detail, use the official framework site, linked with access dates in the sources.",
+      "diagram": [
+        "Start simple",
+        "Inspect",
+        "Adapt"
+      ]
+    }
+  ]
+}
