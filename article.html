@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>From a brief to a live website</title>
+<style>
+:root {
+    --navy: #102A43; --blue: #2F6FED; --light: #EEF4FB; --pale: #F7F9FC;
+    --mid: #486581; --dark: #1F2933; --gray: #627D98; --amber: #9A6700;
+    --warning-bg: #FFF7E6; --white: #FFFFFF;
+}
+* { box-sizing: border-box; }
+html { background: #F7F9FC; }
+body {
+    font-family: Aptos, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 11.0pt;
+    line-height: 1.31;
+    color: var(--dark);
+    max-width: 7.0600000000000005in;
+    margin: 0 auto;
+    padding: 0.65in 1in 3rem;
+    background: var(--white);
+}
+h1, h2, h3, h4 {
+    font-family: Aptos Display, sans-serif;
+    color: var(--navy);
+    line-height: 1.25;
+    margin: 1.6em 0 0.5em;
+}
+h1 { font-size: 21pt; border-bottom: 2px solid var(--light); padding-bottom: .3em; }
+h2 { font-size: 15.5pt; color: var(--blue); }
+h3 { font-size: 12.5pt; color: var(--mid); }
+p { margin: .5em 0; }
+code {
+    font-family: Aptos Mono, "SF Mono", Consolas, monospace;
+    font-size: .92em;
+    background: var(--light);
+    padding: .1em .35em;
+    border-radius: 3px;
+}
+a { color: var(--blue); }
+img { max-width: 100%; height: auto; display: block; margin: 1.2em auto .3em; }
+figure { margin: 1.4em 0; text-align: center; }
+figcaption {
+    font-size: 9pt;
+    font-style: italic;
+    color: var(--gray);
+    margin-top: .4em;
+}
+blockquote { margin: 1em 0; }
+.callout {
+    border-left: 4px solid var(--navy);
+    background: var(--light);
+    padding: .8em 1.1em;
+    margin: 1.1em 0;
+    border-radius: 0 4px 4px 0;
+}
+.callout-warning {
+    border-left-color: var(--amber);
+    background: var(--warning-bg);
+}
+.callout-label {
+    display: inline-block;
+    font-weight: 700;
+    font-size: .8em;
+    letter-spacing: .06em;
+    color: var(--navy);
+    margin-right: .6em;
+}
+.callout-warning .callout-label { color: var(--amber); }
+table {
+    border-collapse: collapse;
+    margin: 1.2em auto;
+    width: 100%;
+    font-size: .95em;
+}
+th {
+    background: var(--navy);
+    color: var(--white);
+    text-align: left;
+    padding: .5em .8em;
+}
+td {
+    padding: .45em .8em;
+    border-bottom: 1px solid var(--light);
+}
+tr:nth-child(even) td { background: var(--pale); }
+.cover-kicker {
+    font-weight: 700;
+    font-size: .8em;
+    letter-spacing: .12em;
+    color: var(--blue);
+    text-transform: uppercase;
+    margin-top: 2.2em;
+}
+.cover-title {
+    font-size: 26pt;
+    font-weight: 700;
+    color: var(--navy);
+    margin: .2em 0 .3em;
+    line-height: 1.15;
+}
+.cover-subtitle {
+    font-size: 12.5pt;
+    color: var(--mid);
+    margin: 0 0 1em;
+}
+.cover-band {
+    background: var(--navy);
+    color: var(--white);
+    display: inline-block;
+    padding: .45em 1em;
+    font-size: 9pt;
+    font-weight: 700;
+    letter-spacing: .04em;
+}
+.rule { border: 0; border-top: 1px solid var(--light); margin: 2em 0; }
+footer.meta {
+    margin-top: 3em;
+    padding-top: .8em;
+    border-top: 1px solid var(--light);
+    color: var(--gray);
+    font-size: .8em;
+    display: flex;
+    justify-content: space-between;
+}
+@media print {
+    html { background: var(--white); }
+    body { max-width: none; margin: 0; padding: 0.65in 0.72in; }
+    a { text-decoration: none; color: inherit; }
+}
+
+</style>
+</head>
+<body>
+<p class="cover-kicker">FIELD NOTES</p>
+<h1 class="cover-title" style="border:0;margin-top:.2em">From a brief to a live website</h1>
+<p class="cover-subtitle">A practical guide from idea to published result</p>
+<p class="cover-band">Hermes / Common DevOps  |  Demonstration</p>
+<h2>Start with a clear brief</h2>
+<p>A website begins with a clear brief. Tell Hermes who the page is for, what it should explain, and what visitors should do next. A small first version is easier to review.</p>
+<ul><li>Name the audience</li><li>Choose one useful outcome</li><li>Keep the first version small</li></ul>
+<figure><img src="slides/01.png" alt="Start with a clear brief"><figcaption>Start with a clear brief</figcaption></figure>
+<h2>Build in a dedicated repository</h2>
+<p>Hermes prepares the page and its assets in a dedicated repository. The source stays editable, and each change becomes part of a recorded history. Demonstration material contains no private documents.</p>
+<ul><li>Keep source files together</li><li>Use the account you control</li><li>Preserve editable originals</li></ul>
+<figure><img src="slides/02.png" alt="Build in a dedicated repository"><figcaption>Build in a dedicated repository</figcaption></figure>
+<h2>Review the proposed change</h2>
+<p>Before publication, Hermes opens a draft pull request. Review the wording, links, and layout. Approval applies to the exact revision, so later changes must return for review.</p>
+<ul><li>Open the draft pull request</li><li>Check words, links, and layout</li><li>Approve the exact revision</li></ul>
+<figure><img src="slides/03.png" alt="Review the proposed change"><figcaption>Review the proposed change</figcaption></figure>
+<h2>Publish the approved revision</h2>
+<p>Once approved, the change is merged. GitHub Pages builds the website from the main branch. A successful merge starts publication, but does not prove that the new page is live.</p>
+<ul><li>Merge the reviewed files</li><li>Pages builds the website</li><li>Wait for the deployment result</li></ul>
+<figure><img src="slides/04.png" alt="Publish the approved revision"><figcaption>Publish the approved revision</figcaption></figure>
+<h2>Verify what visitors receive</h2>
+<p>Verification connects the deployment to the reviewed revision. Open the live page, check its contents, and test its links and layout on desktop and mobile. Save that evidence with the release.</p>
+<ul><li>Match the deployed revision</li><li>Open the live page</li><li>Check desktop and mobile</li></ul>
+<figure><img src="slides/05.png" alt="Verify what visitors receive"><figcaption>Verify what visitors receive</figcaption></figure>
+<h2>Revise with confidence</h2>
+<p>A correction follows the same path: edit, review, approve, publish, and verify. Earlier revisions remain available, so a deliberate revert can restore the previous website without rebuilding it from memory.</p>
+<ul><li>Make a focused correction</li><li>Review and publish again</li><li>Keep a path back</li></ul>
+<figure><img src="slides/06.png" alt="Revise with confidence"><figcaption>Revise with confidence</figcaption></figure>
+<h2>Further reading</h2>
+<p>https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site</p>
+<footer class="meta"><span>COMMON DEVOPS  |  SECURITY RESEARCH</span><span>From a brief to a live website</span></footer>
+</body>
+</html>
